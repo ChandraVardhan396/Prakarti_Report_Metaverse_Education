@@ -1,0 +1,63 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+  "title": "Prakarti Report: Environmental Education",
+  "description": "An interactive environmental education platform where students explore climate change, waste management, water conservation, biodiversity, and sustainable solutions through immersive learning experiences.",
+  "navmapThumbnail": "images/scene-thumbnail.png",
+  "favicon": "favicon_asset"
+},
+  "owner": "",
+  "contact": {
+    "name": "SDK",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "0,0",
+      "0,1",
+      "1,0",
+      "1,1"
+    ],
+    "base": "0,0"
+  },
+  "worldConfiguration": {
+    "name": "juek396.dcl.eth",
+    "private": false
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": [
+          0,
+          3
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          0,
+          3
+        ]
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  },
+  "source": {
+    "origin": "creator-hub",
+    "projectId": "af61797a-61da-420c-8d9b-ff11bc632cb0"
+  }
+}

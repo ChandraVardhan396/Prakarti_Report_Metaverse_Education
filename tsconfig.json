@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "jsx": "react",
+    "jsxFactory": "ReactEcs.createElement",
+    "jsxFragmentFactory": "React.Fragment"
+    
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "extends": "@dcl/sdk/types/tsconfig.ecs7.json"
+}
