@@ -1,4 +1,4 @@
-# SDK7 Template scene
+# Prakarti Report - Education Platform Using DCL SDK7
 
 ## Try it out
 
